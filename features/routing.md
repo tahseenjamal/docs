@@ -30,7 +30,7 @@ Route.options('/welcome', 'WelcomeController@show')
 Route.view('/url', 'view.name', {'key': 'value'})
 Route.resource('/users', 'UsersController')
 Route.api('/users', 'UsersApiController')
-Route.fallback("WellcomeController@fallback")
+Route.fallback("WelcomeController@fallback")
 ```
 
 In addition to these route verbs you can use built in routes:
