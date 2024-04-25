@@ -64,7 +64,7 @@ in your route file.
 You can import your controllers in your route file and provide a class name or a method class:
 
 ```python
-from app.controllers import WelcomeController
+from app.controllers.WelcomeController import WelcomeController
 
 Route.get('/welcome', WelcomeController)
 ```
